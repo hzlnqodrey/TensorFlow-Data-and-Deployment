@@ -5,7 +5,7 @@
 <script>
 const threshold = 0.9;
 toxicity.load(threshold).then(model => {
-    const sentences = ['you suck'];
+    const sentences = ['you stupid fuck and you are ugly as hell'];
     model.classify(sentences).then(predictions => {
         console.log(predictions);
         for(i=0; i<7; i++){
